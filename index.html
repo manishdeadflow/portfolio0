@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manish Dev</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <!-- <div class="logo">Manish Saini</div> -->
+      <img class="logo" src="assets/logo.png" />
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <!-- <div class="logo">Manish Saini</div> -->
+      <img class="logo logo-pic" src="assets/logo.png"/>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-link">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/profile-pic.png" alt="Manish Saini Profile Picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello I'm</p>
+        <h1 class="title">Manish Saini</h1>
+        <p class="section__text__p2">Fullstack Developer & Cloud Engineer</p>
+        <div class="button-container">
+          <button
+            class="btn btn-color-1"
+            onclick="window.open('assets/ManishSaini.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div class="socials-container">
+          <img
+            class="icon"
+            src="assets/linkedin.png"
+            alt="My Linkedin Profile"
+            onclick="window.open('https://www.linkedin.com/in/manish-kumar-saini','_blank')"
+          />
+          <img
+            class="icon"
+            src="assets/github.png"
+            alt="My Github Profile"
+            onclick="window.open('https://github.com/manishdeadflow','_blank')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="assets/1.jpg" alt="My About Picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Frontend Developement</p>
+              <p>Backend Developement</p>
+              <p>Cloud Practices</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="assets/education.png"
+                alt="Eduction icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <h4>Bachelor of Engineer(B.E)</h4>
+              <p>Institute of Engineering & Technology, Indore</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+            👋 Hello! I'm Manish, an aspiring developer just beginning my journey into the world of coding and creation. <br/><br/>
+
+             With a fresh start in development, I'm eagerly learning the ropes and building my skills one line of code at a time. Every challenge is an opportunity to grow and embrace the endless possibilities of technology. <br/><br/>
+
+             When I'm not immersed in code, I enjoy playing Guitar ,Anime and reading Books, which add a touch of creativity and inspiration to my learning journey.<br/><br/>
+
+             Join me as I navigate the exciting landscape of development, and let's embark on this adventure together!<br/><br/>
+             
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/arrow.png"
+        alt="navigation arrow"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Developement</h2>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Developement</h2>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Flask</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Mongo DB</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Mysql</h3>
+                  <p>Expirenced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Docker</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" alt="" class="icon" />
+                <div>
+                  <h3>Kubernetes</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/arrow.png"
+        alt="navigation arrow"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <h1 class="title" style="margin: 10rem auto 0;">Projects Not Hosted Yet !</h1>
+          <!-- <div class="details-container color-container"> -->
+          <!--   <div class="article-container"> -->
+          <!--     <img -->
+          <!--       src="assets/project-1.png" -->
+          <!--       alt="project-1" -->
+          <!--       class="project-img" -->
+          <!--     /> -->
+          <!--   </div> -->
+          <!--   <h2 class="experience-sub-title project-title">Project One</h2> -->
+          <!--   <div class="btn-container"> -->
+          <!--     <button class="btn btn-color-1 project-btn">Github</button> -->
+          <!--     <button class="btn btn-color-1 project-btn">Live Demo</button> -->
+          <!--   </div> -->
+          <!-- </div> -->
+          <!-- <div class="details-container color-container"> -->
+          <!--   <div class="article-container"> -->
+          <!--     <img -->
+          <!--       src="assets/project-1.png" -->
+          <!--       alt="project-1" -->
+          <!--       class="project-img" -->
+          <!--     /> -->
+          <!--   </div> -->
+          <!--   <h2 class="experience-sub-title project-title">Project One</h2> -->
+          <!--   <div class="btn-container"> -->
+          <!--     <button class="btn btn-color-1 project-btn">Github</button> -->
+          <!--     <button class="btn btn-color-1 project-btn">Live Demo</button> -->
+          <!--   </div> -->
+          <!-- </div> -->
+          <!-- <div class="details-container color-container"> -->
+          <!--   <div class="article-container"> -->
+          <!--     <img -->
+          <!--       src="assets/project-1.png" -->
+          <!--       alt="project-1" -->
+          <!--       class="project-img" -->
+          <!--     /> -->
+          <!--   </div> -->
+          <!--   <h2 class="experience-sub-title project-title">Project One</h2> -->
+          <!--   <div class="btn-container"> -->
+          <!--     <button class="btn btn-color-1 project-btn">Github</button> -->
+          <!--     <button class="btn btn-color-1 project-btn">Live Demo</button> -->
+          <!--   </div> -->
+          <!-- </div> -->
+
+        </div>
+      </div>
+      <img
+        src="assets/arrow.png"
+        alt="navigation arrow"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get In Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+          <p><a href="mailto:manishsaini.work@gmail.com">manishsaini.work@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+          <p><a href="https://linkedin.com/in/manish-kumar-saini" target="_blank">Linkedin</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-link-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      </nav>
+      <p>Copyright &#169 2023 Manish Saini. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
