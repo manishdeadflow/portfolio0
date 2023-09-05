@@ -247,6 +247,7 @@ section {
 .about-containers {
   gap: 2rem;
   margin: 2rem 0;
+  justify-content: space-evenly;
 }
 
 .about-details-container {
@@ -277,6 +278,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  max-width: 500px;
 }
 
 .section-container {
