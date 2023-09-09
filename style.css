@@ -320,6 +320,10 @@ article {
   gap: 0.5rem;
 }
 
+.article-container article{
+  justify-content: start;
+}
+
 article .icon {
   cursor: default;
 }
